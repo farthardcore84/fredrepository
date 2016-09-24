@@ -1,0 +1,230 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import 'https://fonts.googleapis.com/css?family=Homemade+Apple|Playfair+Display:400,700,700i|Open+Sans:300,400,600,700,800';
+
+html {
+    color: #000;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #fff;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#bigbox {
+	height:2000px;
+	width:auto;
+}
+
+.sanacity {
+	position:absolute;
+  z-index: -2;
+
+  min-height: 100%;
+	min-width: 1024px;
+
+  height: auto;
+  width: 100%;
+
+	background-image:url(../images/img_sana.png);
+	background-size: 100% auto;
+	background-position:100% 400px;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+
+.backgroundGradient {
+  position: absolute;
+  min-height: 100%;
+	min-width: 1024px;
+
+  height: auto;
+  width: 100%;
+  background-size: 100% auto;
+  background-position:100% auto;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  overflow:hidden;
+
+  z-index: -3;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #e5e5e5, #ffffff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #e5e5e5, #ffffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #e5e5e5, #ffffff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #e5e5e5, #ffffff); /* Standard syntax (must be last) */
+
+}
+
+.wall {
+	position:absolute;
+  min-height: 100%;
+	min-width: 1024px;
+
+  height: auto;
+  width: 100%;
+
+	background-image:url(../images/img_triangle.png);
+  background-size: 100% auto;
+	background-repeat:no-repeat;
+	left:0;
+	bottom:-40%;
+}
+
+.logo {
+	position:absolute;
+	height:50%;
+	width:50%;
+	background-image:url(../images/img_logo.svg);
+	background-repeat:no-repeat;
+  background-size: 20% auto;
+	margin-left:20px;
+	top:20px;
+}
+
+.dervish {
+  position:absolute;
+  min-height: 100%;
+	min-width: 1024px;
+
+  height: auto;
+  width: 100%;
+	background-image:url(../images/img_dervish.png);
+  background-size: auto 45.5%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.imageTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #231f20;
+
+  position:absolute;
+  left: 42.3%;
+  top: 68%;
+}
+
+.subTitle {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #231f20;
+
+  position:absolute;
+  left: 39.2%;
+  top: 73%;
+}
+
+.minaretRight {
+	position:absolute;
+  min-height: 100%;
+	min-width: 1024px;
+
+  height: auto;
+  width: 100%;
+  z-index: -1;
+
+	background-image:url(../images/img_minaret_r.png);
+  background-size: auto 80%;
+	background-repeat:no-repeat;
+	left:70%;
+	bottom:-10%;
+}
+
+.minaretLeft {
+	position:absolute;
+  min-height: 100%;
+	min-width: 1024px;
+
+  height: auto;
+  width: 100%;
+  z-index: -1;
+
+	background-image:url(../images/img_minaret_l.png);
+  background-size: auto 60%;
+	background-repeat:no-repeat;
+	left:20%;
+	bottom:-30%;
+}
+
+
+/* ==========================================================================
+   Blurb Area
+   ========================================================================== */
+.introBlurb{
+  font-size: 100px;
+  display: block;
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
